@@ -60,7 +60,7 @@ class hardwareConfiguration(object):
     channelDict = {
 		   # Internal866 is in pulser firmware, this is the required channel name.
                    'Internal866':channelConfiguration(0, False, False, False, False), ## camera
-                   '866DP':channelConfiguration(1, False, False, True, True),
+                   '866DP':channelConfiguration(1, False, False, True, False),
                    'TTL2':channelConfiguration(2, False, False, False, False),
                    'TTL3':channelConfiguration(3, False, False, True, True),
                    'TTL4':channelConfiguration(4, False, False, False, False),
@@ -96,7 +96,7 @@ class hardwareConfiguration(object):
     #address, allowedfreqrange, allowedamplrange, frequency, amplitude, **args):
     ddsDict =   {
                  'repump':ddsConfiguration(    0,  (40.0,400.0),   (-48.0,-5.0),  160.0,   -48.0),
-                'DDS_1':ddsConfiguration(    1,  (0.0,800.0),   (-48.0,3.0),  150.0,   -48.0),
+                '369':ddsConfiguration(    1,  (0.0,800.0),   (-48.0,-3.0),  200.0,   -48.0),
                 'DDS_2':ddsConfiguration(    2,  (0.0,800.0),   (-48.0,3.0),  198.0,   -48.0),
                 'DDS_3':ddsConfiguration(    3,  (0.0,800.0),   (-48.0,3.0),  150.0,   -48.0),
                 }

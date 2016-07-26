@@ -1,0 +1,15 @@
+class dac_8718_config(object):
+    '''
+    configuration file for arduino switch client
+    info is the configuration dictionary in the form
+    {channel_name: (port, display_location, inverted)), }
+    '''
+    info = {'DAC 1': ('DAC 0', 0),
+            'DAC 2': ('DAC 1', 1),
+	    'DAC 3': ('DAC 2', 2),
+	    'DAC 4': ('DAC 3', 3),
+	    'DAC 5': ('DAC 4', 4),
+            'DAC 6': ('DAC 5', 5),
+	    'DAC 7': ('DAC 6', 6),
+	    'DAC 8': ('DAC 7', 7),
+            }
