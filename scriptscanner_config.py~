@@ -11,11 +11,15 @@ class config(object):
 	       (exps + 'wavemeter_linescan.wavemeter_linescan', 'wavemeter_linescan'),
                (exps + 'test_DDS_channels.DDS_test_channels', 'DDS_test_channels'),
 	       (exps + 'laser_stability_monitor.laser_stability_monitor', 'lasermonitor'),
-	       (exps + 'M2_pump_monitor.M2_pump_monitor', 'M2pumpmonitor'),
-	       (exps + 'testexp.testexperiment', 'testexperiment')
+	       (exps + 'FFT.PMT_FFT', 'fft_spectrum'),
+	       (exps + 'TD_Flourescence.TD_flourescence', 'TD_flourescence'),
+	       (exps + 'interleaved_linescan.interleaved_linescan', 'InterleavedLinescan'),
+	       (exps + 'ML_Piezo_scan.ML_Piezo_scan', 'MLpiezoscan'),
+	       (exps + 'line_narrowing.Line_Narrowing', 'Line_Narrowing')
                ]
+    scripts.append((exps + 'dds_linescan.dds_linescan', 'DDSLinescan'))
 
     allowed_concurrent = {}
     allowed_concurrent['lasermonitor'] = ['lasermonitor']
-    
-    launch_history = 1000   
+
+    launch_history = 1000

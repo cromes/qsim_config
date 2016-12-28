@@ -75,11 +75,12 @@ class hardwareConfiguration(object):
                    'TTL13':channelConfiguration(13, False, False, False, False),
                    'TTL14':channelConfiguration(14, False, False, False, False),
                    'TTL15':channelConfiguration(15, False, False, False, False),
+		   'TimeResolvedCount':channelConfiguration(17, False, False, False, False),
 		   'DiffCountTrigger':channelConfiguration(16, False, False, False, False),
                    'AdvanceDDS':channelConfiguration(18, False, False, False, False),
                    'ResetDDS':channelConfiguration(19, False, False, False, False),
+                   'ReadoutCount':channelConfiguration(20, False, False, False, False), ### triggering for analog board
 
-                   'TTL20':channelConfiguration(20, False, False, False, False), ### triggering for analog board
                    'TTL21':channelConfiguration(21, False, False, False, False), ### triggering for analog board
                    'TTL22':channelConfiguration(22, True, True, False, False),
                    'TTL23':channelConfiguration(23, True, True, False, False), 
@@ -95,9 +96,9 @@ class hardwareConfiguration(object):
                 }
     #address, allowedfreqrange, allowedamplrange, frequency, amplitude, **args):
     ddsDict =   {
-                 'repump':ddsConfiguration(    0,  (40.0,400.0),   (-48.0,-5.0),  160.0,   -48.0),
+                 'repump':ddsConfiguration(    0,  (40.0,600.0),   (-48.0,-3.6),  320.0,   -48.0),
                 '369':ddsConfiguration(    1,  (0.0,800.0),   (-48.0,-3.0),  200.0,   -48.0),
-                'DDS_2':ddsConfiguration(    2,  (0.0,800.0),   (-48.0,3.0),  198.0,   -48.0),
+                'RF_Drive':ddsConfiguration(    2,  (48.0, 49.0),   (-48.0, -18.9),  48.396,   -48.0),
                 'DDS_3':ddsConfiguration(    3,  (0.0,800.0),   (-48.0,3.0),  150.0,   -48.0),
                 }
     remoteChannels = {
