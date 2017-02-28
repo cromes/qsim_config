@@ -98,7 +98,7 @@ class hardwareConfiguration(object):
     ddsDict =   {
                  'repump':ddsConfiguration(    0,  (40.0,600.0),   (-48.0,-3.6),  320.0,   -48.0),
                 '369':ddsConfiguration(    1,  (0.0,800.0),   (-48.0,-3.0),  200.0,   -48.0),
-                'RF_Drive':ddsConfiguration(    2,  (48.0, 49.0),   (-48.0, -18.9),  48.396,   -48.0),
+                'RF_Drive':ddsConfiguration(    2,  (48.0, 49.0),   (-48.0, 5.0),  48.396,   -48.0),
                 'DDS_3':ddsConfiguration(    3,  (0.0,800.0),   (-48.0,3.0),  150.0,   -48.0),
                 }
     remoteChannels = {

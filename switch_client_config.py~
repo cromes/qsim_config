@@ -6,7 +6,7 @@ class switch_config(object):
     '''
     info = {
             '399 trap': (10, (0, 1), True),
-	    'CW 369 (ML overlay)': (12, (0,2), False),
-	    'Mode Locked 369': (9, (0, 3), False),
+	    'CW 369 (ML overlay)': (9, (0,2), False),
+	    'Mode Locked 369': (12, (0, 3), False),
 	    'CW 369': (11, (0,0), False)
             }

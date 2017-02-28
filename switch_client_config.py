@@ -5,8 +5,8 @@ class switch_config(object):
     {channel_name: (port, display_location, inverted)), }
     '''
     info = {
-            '399 trap': (10, (0, 1), True),
-	    'CW 369 (ML overlay)': (9, (0,2), False),
-	    'Mode Locked 369': (12, (0, 3), False),
+            '399 trap': (10, (1, 0), True),
+	    'CW 369 (ML overlay)': (9, (2, 0), False),
+	    'Mode Locked 369': (12, (3, 0), False),
 	    'CW 369': (11, (0,0), False)
             }
