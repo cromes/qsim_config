@@ -1,0 +1,1 @@
+default_directory = /run/user/1000/gvfs/smb-share:server=10.97.112.13,share=share/Group_Share/Molecules/Data/labrad_datavault/2015.dir/11.dir/2015_11_12.dir/ML_ExpansionPrimary.dir/609.dir
