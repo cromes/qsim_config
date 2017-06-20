@@ -16,16 +16,16 @@ class ddsConfiguration(object):
     def __init__(self, address, allowedfreqrange, allowedamplrange, frequency, amplitude, **args):
         self.channelnumber = address
         self.allowedfreqrange = allowedfreqrange
-        self.allowedamplrange = allowedamplrange
+        self.allowedamplrange = allowedamplrange 
         self.frequency = frequency
         self.amplitude = amplitude
         self.state = True
         self.boardfreqrange = args.get('boardfreqrange', (0.0, 2000.0))
         self.boardramprange = args.get('boardramprange', (0.000113687, 7.4505806))
         self.board_amp_ramp_range = args.get('board_amp_ramp_range', (0.00174623, 22.8896))
-        self.boardamplrange = args.get('boardamplrange', (-48.0, 6.0))
+        self.boardamplrange = args.get('boardamplrange', (-46.0, 7.0))
         self.boardphaserange = args.get('boardphaserange', (0.0, 360.0))
-        self.off_parameters = args.get('off_parameters', (0.0, -48.0))
+        self.off_parameters = args.get('off_parameters', (0.0, -46.0))
         self.phase_coherent_model = args.get('phase_coherent_model', True)        
         self.remote = args.get('remote', False)
         self.name = None #will get assigned automatically
@@ -92,14 +92,14 @@ class hardwareConfiguration(object):
                    'TTL29':channelConfiguration(29, False, False, False, False),
                    'TTL30':channelConfiguration(30, False, False, False, False),
 		   # 866DP is in pulser firmware, this is the required channel name.
-                   'TTL31':channelConfiguration(31, False, True, False, False),
+                   'TTL31':channelConfiguration(31, False, True, False, False)
                 }
     #address, allowedfreqrange, allowedamplrange, frequency, amplitude, **args):
     ddsDict =   {
-                 'repump':ddsConfiguration(    0,  (40.0,600.0),   (-48.0,-3.6),  320.0,   -48.0),
-                '369':ddsConfiguration(    1,  (0.0,800.0),   (-48.0,-3.0),  200.0,   -48.0),
-                'RF_Drive':ddsConfiguration(    2,  (48.0, 49.0),   (-48.0, 5.0),  48.396,   -48.0),
-                'DDS_3':ddsConfiguration(    3,  (0.0,800.0),   (-48.0,3.0),  150.0,   -48.0),
+                 'repump':ddsConfiguration(    0,  (40.0,600.0),   (-46.0,0.0),  320.0,   -46.0),
+                '369':ddsConfiguration(    1,  (0.0,800.0),   (-46.0,0.0),  200.0,   -46.0),
+                'RF_Drive':ddsConfiguration(    2,  (48.0, 49.0),   (-46.0,-12.0),  48.562,   -46.0),
+                '369_Dither':ddsConfiguration(    3,  (0.0,800.0),   (-46.0,-4.0),  150.0,   -46.0),
                 }
     remoteChannels = {
                     }

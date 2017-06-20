@@ -8,9 +8,8 @@ class multiplexer_config(object):
     {channel_name: (port, hint, display_location, stretched, display_pid, dac, dac_rails)}
     '''
     info = {
-            '935': (4, '320.571975', (0,3), True, True, 2, [-10.,10.]),
-	        #'399': (8, '751.526670', (0,4), True, True, 3, [-.5,.5]),
-		'369': (1, '811.291490', (0,5), True, True, 3, [-2.0,2.0])
+            '935': (4, '320.571975', (0,3), True, True, 7, [-10.,10.]),
+            '638': (8, '469.438327', (0,4), True, True, 3, [-.5,.5])
             }
     ip = '10.97.112.2'
     
