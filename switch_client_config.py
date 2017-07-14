@@ -6,7 +6,6 @@ class switch_config(object):
     '''
     info = {
             '399 trap': (10, (1, 0), True),
-	    'CW 369 (ML overlay)': (9, (2, 0), False),
-	    'Mode Locked 369': (12, (3, 0), False),
-	    'CW 369': (11, (0,0), False)
+	    '369/399 Wavemeter': (9, (2, 0), False),
+	    'ML to Trap': (12, (3, 0), False),
             }

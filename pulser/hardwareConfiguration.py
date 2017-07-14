@@ -96,10 +96,12 @@ class hardwareConfiguration(object):
                 }
     #address, allowedfreqrange, allowedamplrange, frequency, amplitude, **args):
     ddsDict =   {
-                 'repump':ddsConfiguration(    0,  (40.0,600.0),   (-46.0,0.0),  320.0,   -46.0),
-                '369':ddsConfiguration(    1,  (0.0,800.0),   (-46.0,0.0),  200.0,   -46.0),
-                'RF_Drive':ddsConfiguration(    2,  (48.0, 49.0),   (-46.0,-12.0),  48.562,   -46.0),
-                '369_Dither':ddsConfiguration(    3,  (0.0,800.0),   (-46.0,-4.0),  150.0,   -46.0),
+                 'repump':ddsConfiguration(    0,  (40.0,600.0),   (-46.0,0.0),  320.0,   0.0),
+                '369':ddsConfiguration(    1,  (0.0,800.0),   (-46.0,-4.0),  200.0,   -5.0),
+                'RF_Drive':ddsConfiguration(    2,  (48.0, 49.0),   (-46.0,-12.0),  48.526,   -15.4),
+                'ML_SinglePass':ddsConfiguration(    3,  (0.0,800.0),   (-46.0,3.0),  320.0,   -46.0),
+                'State Detection':ddsConfiguration(    4,  (80,150.0),   (-46.0,-18.3),  110.0,   -18.3),
+                'Doppler Cooling (14 GHz)':ddsConfiguration( 5, (80,150), (-46.0,-21.2), 110.0, -21.2),
                 }
     remoteChannels = {
                     }
