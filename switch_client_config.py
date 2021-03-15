@@ -6,5 +6,7 @@ class switch_config(object):
     '''
     info = {
             '399 Loading': (10, (1, 0), True),
-	    'ML to Trap': (12, (3, 0), True),\
+            'State Detection Shutter': (12, (3, 0), False),
+            'Protection Beam': (9, (5, 0), False)
     }
+

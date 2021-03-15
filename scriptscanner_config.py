@@ -8,99 +8,80 @@ class config(object):
 
         # list in the format (import_path, class_name)
         scripts = [
-                   (exps + 'interleaved_linescan.interleaved_linescan',
-                    'InterleavedLinescan'),
+            (exps + 'Interleaved_Linescan.interleaved_linescan', 'interleaved_linescan'),
 
-                   (exps + 'zeeman_fidelity.zeeman_fidelity',
-                    'zeeman_fidelity'),
+            (exps + 'Line_Narrowing.line_narrowing', 'line_narrowing'),
 
-                
-                   #(exps + 'ML_Piezo_scan.ML_Piezo_scan', 'MLpiezoscan'),
+            #(exps + 'off_resonant_shelving_measurement.off_resonant_shelving_measurement', 'off_resonant_shelving_measurement'),
 
-                   (exps + 'line_narrowing.Line_Narrowing', 'Line_Narrowing'),
+            (exps + 'Bright_State_Detection.bright_state_detection', 'BrightStateDetection'),
 
-                   #(exps + 'Delay_stage_scan.Delay_stage_scan',
-                   # 'Delaystagescan'),
+            (exps + 'Dark_State_Detection.dark_state_detection', 'DarkStateDetection'),
 
-                   (exps + 'Bright_State_Detection.bright_state_detection', 'BrightStateDetection'),
 
-                   (exps + 'Dark_State_Detection.dark_state_detection', 'DarkStateDetection'),
+            #(exps + 'FFT.PMT_FFT', 'PMT_FFT'),
 
-                   #(exps + 'FFT.PMT_FFT', 'PMT_FFT'),
+            #(exps + 'tickle.tickle_experiment', 'ticklescan'),
 
-                   #(exps + 'tickle.tickle_experiment', 'ticklescan'),
+            (exps + 'Laser_Frequency_Tracker.laser_frequency_tracker',
+            'laser_frequency_tracker'),
 
-                   (exps + 'laser_stability_monitor.laser_stability_monitor',
-                    'lasermonitor'),
+            (exps + 'Optical_Pumping_Rate.optical_pumping_rate',
+            'optical_pumping_rate'),
 
-                   (exps + 'fidelity_tweak_up.fidelity_tweak_up',
-                    'fidelity_tweak_up'),
+            #( exps + 'Quadrupole_Optical_Pumping_Linescan.quadrupole_optical_pumping_linescan',
+            # 'quadrupole_optical_pumping_linescan'),
 
-                   (exps + 'Microwave_Rabi_Flopping.microwave_rabi_flopping',
-                    'MicrowaveRabiFlopping'),
+            (exps + 'Fidelity_Tweak_Up.fidelity_tweak_up',
+            'fidelity_tweak_up'),
 
-                   (exps + 'Microwave_Linescan.microwave_linescan',
-                    'MicrowaveLineScan'),
+            (exps + 'Microwave_Rabi_Flopping.microwave_rabi_flopping', 'MicrowaveRabiFlopping'),
 
-                   (exps + 'Quadrupole_Linescan.quadrupole_linescan',
-                    'QuadrupoleLineScan'),
+            (exps + 'Microwave_Linescan.microwave_linescan', 'MicrowaveLineScan'),
 
-                   #(exps + 'Quadrupole_Rabi_Flopping.quadrupole_rabi_flopping',
-                   # 'QuadrupoleRabiFlopping'),
+            #(exps + 'Quadrupole_Linescan.quadrupole_linescan',
+            # 'QuadrupoleLineScan'),
 
-                   #  (exps + 'pulse_runner.pulse_runner', 'PulseRunner'),
+#            (exps + 'Quadrupole_Rabi_Flopping.quadrupole_rabi_flopping',
+#             'QuadrupoleRabiFlopping'),
 
-                   (exps + 'Microwave_Ramsey_Experiment.microwave_ramsey_experiment',
-                    'MicrowaveRamseyExperiment'),
+            (exps + 'Microwave_Ramsey_Experiment.microwave_ramsey_experiment', 'MicrowaveRamseyExperiment'),
 
-                   #(exps + 'AOM_fitting.AOM_fitting_experiment', 'AOM_fitting'),
+            (exps + 'High_Fidelity_Dark_State_SPAM.High_Fidelity_Dark_State_SPAM', 'high_fidelity_dark_state_spam'),
 
-                   #(exps + 'DAC_Raster.DAC_Raster', 'dacRaster'),
+            #(exps + 'DAC_Raster.DAC_Raster', 'dacRaster'),
 
-                   #(exps + 'ML_decoherence.ML_decoherence', 'ML_decoherence'),
+            (exps + 'Shelving_Rate.shelving_rate', 'shelving_rate'),
 
-                   (exps + 'shelving_411.shelving_411', 'ShelvingRate'),
+            (exps + 'Deshelving_Rate.deshelving_rate', 'deshelving_rate'),
 
-                   (exps + 'deshelving_760.deshelving_760', 'DeshelvingRate'),
+            (exps + 'Wavemeter_Linescan.wavemeter_linescan', 'wavemeter_linescan'),
 
-                   (exps + 'wavemeter_linescan.wavemeter_linescan', 'wavemeter_linescan'),
+            (exps + 'Metastable_Microwave_Linescan.metastable_microwave_linescan', 'MetastableMicrowaveLineScan'),
 
-                   (exps + 'shelving_fidelity.shelving_fidelity', 'shelving_fidelity'),
+            (exps + 'Metastable_Microwave_Rabi_Flopping.metastable_microwave_rabi_flopping', 'MetastableMicrowaveRabiFlopping'),
 
-                   #(exps + 'Raman_411_Scan.raman411scan', 'Raman411LineScan'),
+            #(exps + 'Rabi_Point_Tracker.rabi_point_tracker', 'RabiPointTracker'),
 
-                   (exps + 'Metastable_Microwave_Linescan.metastable_microwave_linescan',
-                           'MetastableMicrowaveLineScan'),
+#            (exps + 'ion_position_tracker.ion_position_tracker', 'ion_position_tracker'),
 
-                   (exps + 'Metastable_Microwave_Rabi_Flopping.metastable_microwave_rabi_flopping','MetastableMicrowaveRabiFlopping'),
+            (exps + 'Test_Pulse_Sequence.Test_Pulse_Sequence', 'TestPulseSequence'),
 
-                   #(exps + 'ion_position_tracker.ion_position_tracker', 'ion_position_tracker'),
+            (exps + 'High_Fidelity_Measurement.high_fidelity_measurement', 'high_fidelity_measurement'),
 
-                   #(exps + 'MM_sideband_reduction.MM_sideband_reduction', 'MM_reduction'),
+            (exps + 'Metastable_Microwave_Ramsey_Experiment.metastable_microwave_ramsey_experiment', 'MetastableMicrowaveRamseyExperiment'),
 
-                   #(exps + 'Lifetime_Measurement.Lifetime_Measurement', 'Lifetime_Measurement'),
+            (exps + 'Metastable_Fidelity_Tweak_Up.metastable_fidelity_tweak_up', 'metastable_fidelity_tweak_up'),
 
-                   #(exps + 'manifold_measurement.manifold_measurement', 'manifold_measurement'),
+            (exps + 'Metastable_Qubit_QND.metastable_qubit_qnd', 'MetastableQubitQND'),
 
-                   #(exps + 'TimeHarp_Interleaved.timeharp_interleaved', 'TimeHarp_Interleaved'),
+            (exps + 'Metastable_Measurement_Driven_Gate.metastable_measurement_driven_gate', 'metastable_measurement_driven_gate'),
 
-                   #(exps + 'Test_Pulse_Sequence.Test_Pulse_Sequence', 'TestPulseSequence'),
-
-                   #(exps + 'bf_fluorescence.bf_fluorescence', 'bf_fluorescence'),
-
-                   #(exps + 'TD_Flourescence.TD_flourescence', 'TD_flourescence'),
-
-                   #(exps + 'ML_fidelity_tweak_up.ML_fidelity_tweak_up', 'ML_fidelity_tweak_up'),
-
-                   #(exps + 'Pulsed_delay_stage_scan.Pulsed_delay_stage_scan', 'Pulsed_delay_stage_scan'),
-
-                   #(exps + 'hyperfine_ramsey_scan.hyperfine_ramsey_scan', 'hyperfine_ramsey_scan'),
+            (exps + 'Metastable_Measurement_Driven_Rabi_Flop.metastable_measurement_driven_rabi_flop',
+             'metastable_measurement_driven_rabi_flop'),
 
         ]
 
         allowed_concurrent = {}
-        allowed_concurrent['lasermonitor'] = ['lasermonitor', 'scan_multipole']
-        allowed_concurrent['ML Piezo Scan'] = ['PMT_FFT', 'Tickle Scan']
-        allowed_concurrent['Lifetime Measurement'] = ['Fidelity Tweak Up', 'Tickle Scan', 'Interleaved Line Scan']
-        allowed_concurrent['Fidelity Tweak Up'] = ['ML Piezo Scan', 'Ramsey Delay Stage Scan', 'Interleaved Line Scan', 'Microwave Ramsey Experiment']
+        allowed_concurrent['Metastable Fidelity Tweak Up'] = ['Laser Monitor']
         launch_history = 1000

@@ -66,13 +66,13 @@ class hardwareConfiguration(object):
                    'TimeHarpMarker': channelConfiguration(7, False, False, False, False),
                    '760TTL': channelConfiguration(2, False, False, True, False),
                    '411TTL': channelConfiguration(3, False, False, False, False),
-                   'RFDrive': channelConfiguration(5, False, True, True, False),
-                   'TTL6': channelConfiguration(6, False, False, False, False),
-                   'MicrowaveTTL': channelConfiguration(4, False, False, False, False),
-                   'ShelvingShutter': channelConfiguration(8, False, False, False, True),
-                   '976SP': channelConfiguration(9, False, False, False, False),
-#                   'OpticalPumpingShutter': channelConfiguration(10, False, False, False, False),
-                   'TTL11': channelConfiguration(11, False, False, False, False),
+                   'MetastableQubitTTL': channelConfiguration(5, False, False, False, False),
+                   'MicrowaveTTL2': channelConfiguration(6, False, False, False, False),
+                   'MicrowaveTTL': channelConfiguration(4, False, False, True, True),
+                   'TTL8': channelConfiguration(8, False, False, False, True),
+                   '861SP': channelConfiguration(9, False, False, False, False),
+                   'CameraTrigger': channelConfiguration(10, False, False, False, False),
+                   'MicrowaveTTL3': channelConfiguration(11, False, False, False, False),
                    'TTL12': channelConfiguration(12, False, False, False, True),
                    'TTL13': channelConfiguration(13, False, False, False, False),
                    'TTL14': channelConfiguration(14, False, False, False, False),
@@ -92,21 +92,24 @@ class hardwareConfiguration(object):
                    'TTL28': channelConfiguration(28, False, False, False, False),
                    'TTL29': channelConfiguration(29, False, False, False, False),
                    'TTL30': channelConfiguration(30, False, False, False, False),
-                   'TTL31': channelConfiguration(31, False, True, False, False)
+                   'TTL31': channelConfiguration(31, False, True, False, False),
                 }
     # address, allowedfreqrange, allowedamplrange, frequency, amplitude, **args):
     ddsDict = {
-        'OpticalPumpingSP': ddsConfiguration(0, (80.0, 150.0), (-46.0, -4.0), 110.0, -46.0),
-        '369DP': ddsConfiguration(1, (100.0, 300.0), (-46.0, -4.0), 200.0, -4.0),
+        'OpticalPumpingSP': ddsConfiguration(0, (80.0, 150.0), (-46.0, -0.2), 120.0, -46.0),
+        '369DP': ddsConfiguration(1, (100.0, 300.0), (-46.0, -4.0), 200.0, -14.0),
         'StateDetectionSP': ddsConfiguration(2, (80.0, 150.0), (-46.0, -4.0), 110.0, -46.0),
-        'RF_Drive': ddsConfiguration(3, (30.0, 70.0), (-46.0, -12.0), 47.215, -16.0),
+        'RF_Drive': ddsConfiguration(3, (30.0, 70.0), (-46.0, -14.0), 47.063, -17.0),
         '935SP': ddsConfiguration(4, (280.0, 360.0), (-46.0, -8.0), 320.0, -8.0),
-        '411DP': ddsConfiguration(9, (170.0, 300.0),  (-46.0, -6.8), 200.0, -46.0),
-        '760SP': ddsConfiguration(8, (90.0, 330.0), (-46.0, -9.0), 160.0, -46.0),
-        'DopplerCoolingSP': ddsConfiguration(5, (80.0, 240.0), (-46.0, -9.0),  110.0,   -9.0),
-        '760SP2': ddsConfiguration(6, (120.0, 330.0), (-46.0, 6.0), 160.0, -46.0),
-        'Microwave_qubit': ddsConfiguration(7, (100.0, 450.0), (-46.0, 6.0), 340.0, 6.0),
-        '3GHz_qubit': ddsConfiguration(10, (90.0, 400.0), (-46.0, -11.0), 270.0, -46.0)
-                }
+        '411DP1': ddsConfiguration(9, (200.0, 350.0),  (-46.0, -5.0), 305.0, -46.0),
+        '760SP': ddsConfiguration(8, (90.0, 330.0), (-46.0, -8.0), 160.0, -11.0),
+        'DopplerCoolingSP': ddsConfiguration(5, (80.0, 240.0), (-46.0, -6.0),  110.0,   -6.0),
+        '760SP2': ddsConfiguration(6, (120.0, 330.0), (-46.0, 5.0), 160.0, 2.0),
+        'Microwave_qubit': ddsConfiguration(7, (10.0, 600.0), (-46.0, 7.0), 450.0, -46.0),
+        '411DP2': ddsConfiguration(10, (300.0, 500.0), (-46.0, -8.0), 400.0, -46.0),
+        'ProtectionBeam': ddsConfiguration(11, (100.0, 500.0), (-46.0, -1.0), 250.0, -11.0),
+        '976SP': ddsConfiguration(12, (250.0, 400.0), (-46.0, 2.0), 320.0, -46.0),
+        '3GHz_qubit': ddsConfiguration(13, (100.0, 700.0), (-46.0, 7.0), 452.5, -46.0)
+    }
     remoteChannels = {
                     }
