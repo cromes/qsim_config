@@ -80,6 +80,8 @@ class config(object):
             (exps + 'Metastable_Measurement_Driven_Rabi_Flop.metastable_measurement_driven_rabi_flop',
              'metastable_measurement_driven_rabi_flop'),
 
+            (exps + 'Manifold_Detection.manifold_detection', 'manifold_detection'),
+
         ]
 
         allowed_concurrent = {}
