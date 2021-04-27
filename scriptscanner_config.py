@@ -12,6 +12,8 @@ class config(object):
 
             (exps + 'Line_Narrowing.line_narrowing', 'line_narrowing'),
 
+            (exps + 'Randomized_Benchmarking.randomized_benchmarking', 'RandomizedBenchmarking'),
+
             #(exps + 'off_resonant_shelving_measurement.off_resonant_shelving_measurement', 'off_resonant_shelving_measurement'),
 
             (exps + 'Bright_State_Detection.bright_state_detection', 'BrightStateDetection'),
@@ -39,6 +41,10 @@ class config(object):
 
             (exps + 'Microwave_Linescan.microwave_linescan', 'MicrowaveLineScan'),
 
+            (exps + 'Microwave_Linescan.microwave_linescan_minus', 'MicrowaveLineScanMinus'),
+
+            (exps + 'Microwave_Linescan.microwave_linescan_plus', 'MicrowaveLineScanPlus'),
+
             #(exps + 'Quadrupole_Linescan.quadrupole_linescan',
             # 'QuadrupoleLineScan'),
 
@@ -57,9 +63,9 @@ class config(object):
 
             (exps + 'Wavemeter_Linescan.wavemeter_linescan', 'wavemeter_linescan'),
 
-            (exps + 'Metastable_Microwave_Linescan.metastable_microwave_linescan', 'MetastableMicrowaveLineScan'),
+            #(exps + 'Metastable_Microwave_Linescan.metastable_microwave_linescan', 'MetastableMicrowaveLineScan'),
 
-            (exps + 'Metastable_Microwave_Rabi_Flopping.metastable_microwave_rabi_flopping', 'MetastableMicrowaveRabiFlopping'),
+           # (exps + 'Metastable_Microwave_Rabi_Flopping.metastable_microwave_rabi_flopping', 'MetastableMicrowaveRabiFlopping'),
 
             #(exps + 'Rabi_Point_Tracker.rabi_point_tracker', 'RabiPointTracker'),
 
@@ -69,16 +75,16 @@ class config(object):
 
             (exps + 'High_Fidelity_Measurement.high_fidelity_measurement', 'high_fidelity_measurement'),
 
-            (exps + 'Metastable_Microwave_Ramsey_Experiment.metastable_microwave_ramsey_experiment', 'MetastableMicrowaveRamseyExperiment'),
+            #(exps + 'Metastable_Microwave_Ramsey_Experiment.metastable_microwave_ramsey_experiment', 'MetastableMicrowaveRamseyExperiment'),
 
-            (exps + 'Metastable_Fidelity_Tweak_Up.metastable_fidelity_tweak_up', 'metastable_fidelity_tweak_up'),
+            #(exps + 'Metastable_Fidelity_Tweak_Up.metastable_fidelity_tweak_up', 'metastable_fidelity_tweak_up'),
 
-            (exps + 'Metastable_Qubit_QND.metastable_qubit_qnd', 'MetastableQubitQND'),
+            #(exps + 'Metastable_Qubit_QND.metastable_qubit_qnd', 'MetastableQubitQND'),
 
-            (exps + 'Metastable_Measurement_Driven_Gate.metastable_measurement_driven_gate', 'metastable_measurement_driven_gate'),
+            #(exps + 'Metastable_Measurement_Driven_Gate.metastable_measurement_driven_gate', 'metastable_measurement_driven_gate'),
 
-            (exps + 'Metastable_Measurement_Driven_Rabi_Flop.metastable_measurement_driven_rabi_flop',
-             'metastable_measurement_driven_rabi_flop'),
+            #(exps + 'Metastable_Measurement_Driven_Rabi_Flop.metastable_measurement_driven_rabi_flop',
+             #'metastable_measurement_driven_rabi_flop'),
 
             (exps + 'Manifold_Detection.manifold_detection', 'manifold_detection'),
 
