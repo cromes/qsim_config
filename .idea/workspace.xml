@@ -6,6 +6,7 @@
       <change afterPath="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_client.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_gui.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/AOM_Flickering/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/AOM_Flickering/aom_flickering.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Coherence_Measurement/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Coherence_Measurement/coherence_measurement.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan_935/__init__.py" afterDir="false" />
@@ -13,18 +14,14 @@
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Rabi_Flopping/microwave_rabi_flopping_clock.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/SF_Discrimination_Experiment/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/SF_Discrimination_Experiment/sf_discrimination_experiment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/aom_flickering.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/coherence_measurement_point.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point_clock.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/ramsey_microwave_line_scan_point.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sf_discrimination_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/AOMFlickering.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/CoherenceMeasurementMicrowaveSequence.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/DopplerCoolingFiberEOM.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/SF_Discrimination_Detection.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/StandardStateDetectionFiberEOM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/aom_flicker/DP369.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/aom_flicker/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_pulse_sequences/MicrowaveInterrogationClock.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_pulse_sequences/MicrowaveSequenceStandard_RandomPhase.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/single_sequence_rb_testing.py" afterDir="false" />
@@ -248,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619553645088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="big ol commit">
+      <created>1641951671299</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641951671299</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +272,8 @@
     <MESSAGE value="more functions for automating tweak-up during triple-microwave experiments." />
     <MESSAGE value="fancy pulse sequences" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="big ol commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="big ol commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
