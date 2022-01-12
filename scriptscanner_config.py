@@ -20,6 +20,9 @@ class config(object):
 
             (exps + 'Dark_State_Detection.dark_state_detection', 'DarkStateDetection'),
 
+            (exps + 'SF_Discrimination_Experiment.sf_discrimination_experiment', 'sf_discrimination_experiment'),
+
+            (exps + 'Coherence_Measurement.coherence_measurement', 'coherence_measurement'),
 
             #(exps + 'FFT.PMT_FFT', 'PMT_FFT'),
 
@@ -45,8 +48,10 @@ class config(object):
 
             (exps + 'Microwave_Linescan.microwave_linescan_plus', 'MicrowaveLineScanPlus'),
 
-            #(exps + 'Quadrupole_Linescan.quadrupole_linescan',
-            # 'QuadrupoleLineScan'),
+            (exps + 'Microwave_Rabi_Flopping.microwave_rabi_flopping_clock', 'MicrowaveRabiFloppingClock'),
+
+            (exps + 'Quadrupole_Linescan.quadrupole_linescan',
+             'QuadrupoleLineScan'),
 
 #            (exps + 'Quadrupole_Rabi_Flopping.quadrupole_rabi_flopping',
 #             'QuadrupoleRabiFlopping'),
@@ -88,6 +93,10 @@ class config(object):
 
             (exps + 'Manifold_Detection.manifold_detection', 'manifold_detection'),
 
+            (exps + 'Interleaved_Linescan_935.interleaved_linescan_935', 'interleaved_linescan_935'),
+
+            (exps + 'AOM_Flickering.aom_flickering', 'aom_flickering'),
+	
         ]
 
         allowed_concurrent = {}

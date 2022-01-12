@@ -1,7 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="45306210-2a53-4e50-b09e-0bab617f0f23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Qsim/clients/windfreak_client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/AOM_Flickering/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Coherence_Measurement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Coherence_Measurement/coherence_measurement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan_935/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan_935/interleaved_linescan_935.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Rabi_Flopping/microwave_rabi_flopping_clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/SF_Discrimination_Experiment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/SF_Discrimination_Experiment/sf_discrimination_experiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/aom_flickering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/coherence_measurement_point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point_clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/ramsey_microwave_line_scan_point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sf_discrimination_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/AOMFlickering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/CoherenceMeasurementMicrowaveSequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/DopplerCoolingFiberEOM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/SF_Discrimination_Detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/StandardStateDetectionFiberEOM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/aom_flicker/DP369.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/aom_flicker/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_pulse_sequences/MicrowaveInterrogationClock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_pulse_sequences/MicrowaveSequenceStandard_RandomPhase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/single_sequence_rb_testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/servers/windfreak_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/servers/windfreak_2/windfreak_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/.idea/Qsim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/.idea/Qsim.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/QsimGUI/QsimGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/QsimGUI/QsimGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/load_control/load_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/load_control/load_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/qtui/electrodewidget.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/qtui/electrodewidget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Bright_State_Detection/bright_state_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Bright_State_Detection/bright_state_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/High_Fidelity_Dark_State_SPAM/High_Fidelity_Dark_State_SPAM.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/High_Fidelity_Dark_State_SPAM/High_Fidelity_Dark_State_SPAM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/High_Fidelity_Measurement/high_fidelity_measurement.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/High_Fidelity_Measurement/high_fidelity_measurement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan/interleaved_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan/interleaved_linescan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Laser_Frequency_Tracker/laser_frequency_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Laser_Frequency_Tracker/laser_frequency_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Linescan/microwave_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Linescan/microwave_linescan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Optical_Pumping_Rate/optical_pumping_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Optical_Pumping_Rate/optical_pumping_rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Randomized_Benchmarking/generate_save_rb_sequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Randomized_Benchmarking/generate_save_rb_sequences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Randomized_Benchmarking/randomized_benchmarking.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Randomized_Benchmarking/randomized_benchmarking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Wavemeter_Linescan/wavemeter_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Wavemeter_Linescan/wavemeter_linescan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/qsimexperiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/qsimexperiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/BrightStatePumping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/BrightStatePumping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/bright_state_preparation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/bright_state_preparation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/fidelity_tweak_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/fidelity_tweak_up.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/optical_pumping_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/optical_pumping_point.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_dark_spam.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_dark_spam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/DipoleInterrogation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/DipoleInterrogation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/DopplerCooling.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/DopplerCooling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/OpticalPumping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/OpticalPumping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/RamseyMicrowaveInterrogation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/RamseyMicrowaveInterrogation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/RandomizedBenchmarking.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/RandomizedBenchmarking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/Shelving.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/Shelving.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/StandardStateDetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/StandardStateDetection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_pulse_sequences/MicrowaveSequenceStandard.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_pulse_sequences/MicrowaveSequenceStandard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/pi_pulses/knill_pi_pulse.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/pi_pulses/knill_pi_pulse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_X.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_X.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_Y.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_Y.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_Z.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_Z.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_minus_X.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_minus_X.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_minus_Y.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_minus_Y.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_minus_Z.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/clifford_minus_Z.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_Id.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_Id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_X.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_X.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_Y.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_Y.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_Z.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_Z.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_minus_Id.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_minus_Id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_minus_X.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_minus_X.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_minus_Y.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_minus_Y.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_minus_Z.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/single_qubit_gates/pauli_minus_Z.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiplexerclient_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiplexerclient_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pulser/hardwareConfiguration.py" beforeDir="false" afterPath="$PROJECT_DIR$/pulser/hardwareConfiguration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptscanner_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/scriptscanner_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch_client_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/switch_client_config.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,23 +92,193 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Qsim" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1qoNbaBsr47WessHeX3t38yzCep" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences" />
+      <recent name="$PROJECT_DIR$/../Qsim/scripts/experiments" />
+      <recent name="$PROJECT_DIR$/../Qsim/servers/windfreak_2" />
+      <recent name="$PROJECT_DIR$/../Qsim/servers" />
+      <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/aom_flicker" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/" />
+      <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/pi_pulses" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.interleaved_linescan_935">
+    <configuration name="interleaved_linescan_935" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Qsim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan_935" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan_935/interleaved_linescan_935.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="windfreak_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Qsim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Qsim/servers/windfreak_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Qsim/servers/windfreak_2/windfreak_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="windfreak_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Qsim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Qsim/servers/windfreak" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Qsim/servers/windfreak/windfreak_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.interleaved_linescan_935" />
+        <item itemvalue="Python.windfreak_server (1)" />
+        <item itemvalue="Python.windfreak_server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="45306210-2a53-4e50-b09e-0bab617f0f23" name="Default Changelist" comment="" />
       <created>1488816719656</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488816719656</updated>
     </task>
+    <task id="LOCAL-00001" summary="Randomized benchmarking">
+      <created>1619553259547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619553259547</updated>
+    </task>
+    <task id="LOCAL-00002" summary="more functions for automating tweak-up during triple-microwave experiments.">
+      <created>1619553342409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619553342409</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fancy pulse sequences">
+      <created>1619553363024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619553363024</updated>
+    </task>
+    <task id="LOCAL-00004" summary="minor changes">
+      <created>1619553645088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619553645088</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Randomized benchmarking" />
+    <MESSAGE value="more functions for automating tweak-up during triple-microwave experiments." />
+    <MESSAGE value="fancy pulse sequences" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../Qsim/scripts/experiments/High_Fidelity_Dark_State_SPAM/High_Fidelity_Dark_State_SPAM.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -5,8 +5,8 @@ class switch_config(object):
     {channel_name: (port, display_location, inverted)), }
     '''
     info = {
-            '399 Loading': (10, (1, 0), True),
+            '399 trap': (10, (1, 0), False),
             'State Detection Shutter': (12, (3, 0), False),
-            'Protection Beam': (9, (5, 0), False)
+            'Bad WM Switch': (7, (5, 0), False)
     }
 
