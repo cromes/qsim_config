@@ -69,7 +69,7 @@ class hardwareConfiguration(object):
                    'MetastableQubitTTL': channelConfiguration(5, False, False, False, False),
                    'MicrowaveTTL2': channelConfiguration(6, False, False, False, False),
                    'MicrowaveTTL': channelConfiguration(4, False, False, True, True),
-                   'TTL8': channelConfiguration(8, False, False, False, True),
+                   '411TTL': channelConfiguration(8, True, False, False, False),
                    '861SP': channelConfiguration(9, False, False, False, False),
                    'CameraTrigger': channelConfiguration(10, False, False, False, False),
                    'WindfreakSynthNVTTL': channelConfiguration(11, False, False, True, True),
@@ -101,7 +101,7 @@ class hardwareConfiguration(object):
         'StateDetectionSP': ddsConfiguration(2, (80.0, 150.0), (-46.0, -4.0), 110.0, -46.0),
         'RF_Drive': ddsConfiguration(3, (30.0, 70.0), (-46.0, -14.0), 47.835, -17.1),
         '935SP': ddsConfiguration(4, (280.0, 360.0), (-46.0, -8.0), 320.0, -8.0),
-        '411DP1': ddsConfiguration(9, (200.0, 350.0),  (-46.0, -5.0), 275.0, -46.0),
+        '411DP1': ddsConfiguration(9, (400.0, 500.0),  (-46.0, -7.2), 450.0, -46.0),
         '760SP': ddsConfiguration(8, (90.0, 330.0), (-46.0, -8.0), 160.0, -11.0),
         'DopplerCoolingSP': ddsConfiguration(5, (80.0, 240.0), (-46.0, -6.0),  110.0,   -6.0),
         '760SP2': ddsConfiguration(6, (120.0, 330.0), (-46.0, 5.0), 160.0, 2.0),
@@ -109,7 +109,7 @@ class hardwareConfiguration(object):
         '411DP2': ddsConfiguration(10, (300.0, 500.0), (-46.0, -8.0), 400.0, -46.0),
         #'ProtectionBeam': ddsConfiguration(11, (100.0, 500.0), (-46.0, -1.0), 250.0, -11.0),
         '976SP': ddsConfiguration(12, (250.0, 400.0), (-46.0, 2.0), 320.0, -46.0),
-        '3GHz_qubit': ddsConfiguration(13, (100.0, 700.0), (-46.0, -2.0), 250.0, -46.0)
+        '3GHz_qubit': ddsConfiguration(11, (100.0, 700.0), (-46.0, -2.0), 250.0, -46.0)
     }
     remoteChannels = {
                     }
