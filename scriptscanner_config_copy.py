@@ -13,7 +13,7 @@ class config(object):
 
         (exps + 'Randomized_Benchmarking.randomized_benchmarking', 'RandomizedBenchmarking'),
 
-        # (exps + 'off_resonant_shelving_measurement.off_resonant_shelving_measurement', 'off_resonant_shelving_measurement'),
+        # (path + 'off_resonant_shelving_measurement.off_resonant_shelving_measurement', 'off_resonant_shelving_measurement'),
 
         (exps + 'Bright_State_Detection.bright_state_detection', 'BrightStateDetection'),
 
@@ -25,7 +25,7 @@ class config(object):
 
         (exps + 'FFT.PMT_FFT', 'PMT_FFT'),
 
-        # (exps + 'tickle.tickle_experiment', 'ticklescan'),
+        # (path + 'tickle.tickle_experiment', 'ticklescan'),
 
         (exps + 'Laser_Frequency_Tracker.laser_frequency_tracker',
          'laser_frequency_tracker'),

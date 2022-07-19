@@ -3,105 +3,108 @@ class config(object):
     scriptscanner config object for the molecules experiment.
     """
     # Folder names within the experiments folder that holder experiments
-    exps = 'Qsim.scripts.experiments.'
+    path = 'Qsim.scripts.experiments.'
 
     # list in the format (import_path, class_name)
     scripts = [
-        (exps + 'Interleaved_Linescan.interleaved_linescan', 'interleaved_linescan'),
+        (path + 'Interleaved_Linescan.interleaved_linescan', 'InterleavedLinescan'),
 
-        (exps + 'Line_Narrowing.line_narrowing', 'line_narrowing'),
+        (path + 'Line_Narrowing.line_narrowing', 'LineNarrowing'),
 
-        (exps + 'Randomized_Benchmarking.randomized_benchmarking', 'RandomizedBenchmarking'),
+        (path + 'Randomized_Benchmarking.randomized_benchmarking', 'RandomizedBenchmarking'),
 
-        # (exps + 'off_resonant_shelving_measurement.off_resonant_shelving_measurement', 'off_resonant_shelving_measurement'),
+        # (path + 'off_resonant_shelving_measurement.off_resonant_shelving_measurement',
+        # 'off_resonant_shelving_measurement'),
 
-        (exps + 'Bright_State_Detection.bright_state_detection', 'BrightStateDetection'),
+        (path + 'Bright_State_Detection.bright_state_detection', 'BrightStateDetection'),
 
-        (exps + 'Dark_State_Detection.dark_state_detection', 'DarkStateDetection'),
+        (path + 'Dark_State_Detection.dark_state_detection', 'DarkStateDetection'),
 
-        (exps + 'SF_Discrimination_Experiment.sf_discrimination_experiment', 'sf_discrimination_experiment'),
+        (path + 'SF_Discrimination_Experiment.sf_discrimination_experiment', 'SFDiscriminationExperiment'),
 
-        (exps + 'Coherence_Measurement.coherence_measurement', 'coherence_measurement'),
+        (path + 'Coherence_Measurement.coherence_measurement', 'CoherenceMeasurement'),
 
-        # (exps + 'FFT.PMT_FFT', 'PMT_FFT'),
+        # (path + 'FFT.PMT_FFT', 'PMT_FFT'),
 
-        # (exps + 'tickle.tickle_experiment', 'ticklescan'),
+        # (path + 'tickle.tickle_experiment', 'ticklescan'),
 
-        (exps + 'Laser_Frequency_Tracker.laser_frequency_tracker',
-         'laser_frequency_tracker'),
+        (path + 'Laser_Frequency_Tracker.laser_frequency_tracker', 'LaserFrequencyTracker'),
 
-        (exps + 'Optical_Pumping_Rate.optical_pumping_rate',
-         'optical_pumping_rate'),
+        (path + 'Optical_Pumping_Rate.optical_pumping_rate', 'OpticalPumpingRate'),
 
-        # ( exps + 'Quadrupole_Optical_Pumping_Linescan.quadrupole_optical_pumping_linescan',
+        # ( path + 'Quadrupole_Optical_Pumping_Linescan.quadrupole_optical_pumping_linescan',
         # 'quadrupole_optical_pumping_linescan'),
 
-        (exps + 'Fidelity_Tweak_Up.fidelity_tweak_up',
-         'fidelity_tweak_up'),
+        (path + 'Fidelity_Tweak_Up.fidelity_tweak_up', 'FidelityTweakUp'),
 
-        (exps + 'Microwave_Rabi_Flopping.microwave_rabi_flopping', 'MicrowaveRabiFlopping'),
+        (path + 'Microwave_Rabi_Flopping.microwave_rabi_flopping', 'MicrowaveRabiFlopping'),
 
-        (exps + 'Microwave_Linescan.microwave_linescan', 'MicrowaveLineScan'),
+        (path + 'Microwave_Linescan.microwave_linescan', 'MicrowaveLineScan'),
 
-        (exps + 'Microwave_Linescan.microwave_linescan_minus', 'MicrowaveLineScanMinus'),
+        (path + 'Microwave_Linescan.microwave_linescan_minus', 'MicrowaveLineScanMinus'),
 
-        (exps + 'Microwave_Linescan.microwave_linescan_plus', 'MicrowaveLineScanPlus'),
+        (path + 'Microwave_Linescan.microwave_linescan_plus', 'MicrowaveLineScanPlus'),
 
-        (exps + 'Metastable_Microwave_Linescan_173.metastable_microwave_linescan_173', 'MetastableMicrowaveLineScan173'),
+        (
+            path + 'Metastable_Microwave_Linescan_173.metastable_microwave_linescan_173',
+            'MetastableMicrowaveLineScan173'),
 
-        (exps + 'Metastable_Microwave_Linescan_173.swept_metastable_microwave_linescan_173', 'MetastableMicrowaveLineScanSwept173'),
+        (path + 'Metastable_Microwave_Linescan_173.swept_metastable_microwave_linescan_173',
+         'MetastableMicrowaveLineScanSwept173'),
 
-        (exps + 'Microwave_Rabi_Flopping.microwave_rabi_flopping_clock', 'MicrowaveRabiFloppingClock'),
+        (path + 'Microwave_Rabi_Flopping.microwave_rabi_flopping_clock', 'MicrowaveRabiFloppingClock'),
 
-        (exps + 'Quadrupole_Linescan.quadrupole_linescan',
+        (path + 'Quadrupole_Linescan.quadrupole_linescan',
          'QuadrupoleLineScan'),
 
-        #            (exps + 'Quadrupole_Rabi_Flopping.quadrupole_rabi_flopping',
+        #            (path + 'Quadrupole_Rabi_Flopping.quadrupole_rabi_flopping',
         #             'QuadrupoleRabiFlopping'),
 
-        (exps + 'Microwave_Ramsey_Experiment.microwave_ramsey_experiment', 'MicrowaveRamseyExperiment'),
+        (path + 'Microwave_Ramsey_Experiment.microwave_ramsey_experiment', 'MicrowaveRamseyExperiment'),
 
-        (exps + 'High_Fidelity_Dark_State_SPAM.High_Fidelity_Dark_State_SPAM', 'high_fidelity_dark_state_spam'),
+        (path + 'High_Fidelity_Dark_State_SPAM.high_fidelity_dark_state_spam', 'HighFidelityDarkStateSpam'),
 
-        # (exps + 'DAC_Raster.DAC_Raster', 'dacRaster'),
+        # (path + 'DAC_Raster.DAC_Raster', 'dacRaster'),
 
-        (exps + 'Shelving_Rate.shelving_rate', 'shelving_rate'),
+        (path + 'Shelving_Rate.shelving_rate', 'ShelvingRate'),
 
-        (exps + 'Deshelving_Rate.deshelving_rate', 'deshelving_rate'),
+        (path + 'Deshelving_Rate.deshelving_rate', 'DeshelvingRate'),
 
-        (exps + 'Wavemeter_Linescan.wavemeter_linescan', 'wavemeter_linescan'),
+        (path + 'Wavemeter_Linescan.wavemeter_linescan', 'WavemeterLinescan'),
 
-        # (exps + 'Metastable_Microwave_Linescan.metastable_microwave_linescan', 'MetastableMicrowaveLineScan'),
+        # (path + 'Metastable_Microwave_Linescan.metastable_microwave_linescan', 'MetastableMicrowaveLineScan'),
 
-        # (exps + 'Metastable_Microwave_Rabi_Flopping.metastable_microwave_rabi_flopping', 'MetastableMicrowaveRabiFlopping'),
+        # (path + 'Metastable_Microwave_Rabi_Flopping.metastable_microwave_rabi_flopping',
+        # 'MetastableMicrowaveRabiFlopping'),
 
-        # (exps + 'Rabi_Point_Tracker.rabi_point_tracker', 'RabiPointTracker'),
+        # (path + 'Rabi_Point_Tracker.rabi_point_tracker', 'RabiPointTracker'),
 
-        #            (exps + 'ion_position_tracker.ion_position_tracker', 'ion_position_tracker'),
+        #            (path + 'ion_position_tracker.ion_position_tracker', 'ion_position_tracker'),
 
-        (exps + 'Test_Pulse_Sequence.Test_Pulse_Sequence', 'TestPulseSequence'),
+        (path + 'Test_Pulse_Sequence.Test_Pulse_Sequence', 'TestPulseSequence'),
 
-        (exps + 'High_Fidelity_Measurement.high_fidelity_measurement', 'high_fidelity_measurement'),
+        (path + 'High_Fidelity_Measurement.high_fidelity_measurement', 'HighFidelityMeasurement'),
 
-        # (exps + 'Metastable_Microwave_Ramsey_Experiment.metastable_microwave_ramsey_experiment', 'MetastableMicrowaveRamseyExperiment'),
+        # (path + 'Metastable_Microwave_Ramsey_Experiment.metastable_microwave_ramsey_experiment',
+        # 'MetastableMicrowaveRamseyExperiment'),
 
-        # (exps + 'Metastable_Fidelity_Tweak_Up.metastable_fidelity_tweak_up', 'metastable_fidelity_tweak_up'),
+        # (path + 'Metastable_Fidelity_Tweak_Up.metastable_fidelity_tweak_up', 'metastable_fidelity_tweak_up'),
 
-        # (exps + 'Metastable_Qubit_QND.metastable_qubit_qnd', 'MetastableQubitQND'),
+        # (path + 'Metastable_Qubit_QND.metastable_qubit_qnd', 'MetastableQubitQND'),
 
-        # (exps + 'Metastable_Measurement_Driven_Gate.metastable_measurement_driven_gate', 'metastable_measurement_driven_gate'),
+        # (path + 'Metastable_Measurement_Driven_Gate.metastable_measurement_driven_gate',
+        # 'metastable_measurement_driven_gate'),
 
-        # (exps + 'Metastable_Measurement_Driven_Rabi_Flop.metastable_measurement_driven_rabi_flop',
+        # (path + 'Metastable_Measurement_Driven_Rabi_Flop.metastable_measurement_driven_rabi_flop',
         # 'metastable_measurement_driven_rabi_flop'),
 
-        (exps + 'Manifold_Detection.manifold_detection', 'manifold_detection'),
+        (path + 'Manifold_Detection.manifold_detection', 'ManifoldDetection'),
 
-        (exps + 'Interleaved_Linescan_935.interleaved_linescan_935', 'interleaved_linescan_935'),
+        (path + 'Interleaved_Linescan_935.interleaved_linescan_935', 'InterleavedLinescan935'),
 
-        (exps + 'AOM_Flickering.aom_flickering', 'aom_flickering'),
+        (path + 'AOM_Flickering.aom_flickering', 'AOMFlickering'),
 
     ]
 
-    allowed_concurrent = {}
-    allowed_concurrent['Metastable Fidelity Tweak Up'] = ['Laser Monitor']
+    allowed_concurrent = {'Metastable Fidelity Tweak Up': ['Laser Monitor']}
     launch_history = 1000
