@@ -32,21 +32,17 @@ class config(object):
 
         (path + 'Optical_Pumping_Rate.optical_pumping_rate', 'OpticalPumpingRate'),
 
-        # ( path + 'Quadrupole_Optical_Pumping_Linescan.quadrupole_optical_pumping_linescan',
-        # 'quadrupole_optical_pumping_linescan'),
-
-        (path + 'Fidelity_Tweak_Up.fidelity_tweak_up', 'FidelityTweakUp'),
-
         (path + 'Microwave_Rabi_Flopping.microwave_rabi_flopping', 'MicrowaveRabiFlopping'),
 
         (path + 'Microwave_Linescan.microwave_linescan', 'MicrowaveLineScan'),
+
+        (path + 'Fidelity_Tweak_Up.fidelity_tweak_up', 'FidelityTweakUp'),
 
         (path + 'Microwave_Linescan.microwave_linescan_minus', 'MicrowaveLineScanMinus'),
 
         (path + 'Microwave_Linescan.microwave_linescan_plus', 'MicrowaveLineScanPlus'),
 
-        (
-            path + 'Metastable_Microwave_Linescan_173.metastable_microwave_linescan_173',
+        (path + 'Metastable_Microwave_Linescan_173.metastable_microwave_linescan_173',
             'MetastableMicrowaveLineScan173'),
 
         (path + 'Metastable_Microwave_Linescan_173.swept_metastable_microwave_linescan_173',
@@ -79,7 +75,7 @@ class config(object):
 
         # (path + 'Rabi_Point_Tracker.rabi_point_tracker', 'RabiPointTracker'),
 
-        #            (path + 'ion_position_tracker.ion_position_tracker', 'ion_position_tracker'),
+        # (path + 'ion_position_tracker.ion_position_tracker', 'ion_position_tracker'),
 
         (path + 'Test_Pulse_Sequence.Test_Pulse_Sequence', 'TestPulseSequence'),
 

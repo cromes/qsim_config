@@ -1,68 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45306210-2a53-4e50-b09e-0bab617f0f23" name="Default Changelist" comment="CamelCase in all class names">
-      <change beforePath="$PROJECT_DIR$/../Qsim/deprecated/deprecated_experiments/MM_sideband_reduction/MM_sideband_reduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/deprecated/deprecated_experiments/MM_sideband_reduction/MM_sideband_reduction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/deprecated/deprecated_pulse_sequences/bright_state_preperation_interleaved.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/deprecated/deprecated_pulse_sequences/bright_state_preperation_interleaved.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Bright_State_Detection/bright_state_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Bright_State_Detection/bright_state_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Coherence_Measurement/coherencemeasurement.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Coherence_Measurement/coherence_measurement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Dark_State_Detection/dark_state_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Dark_State_Detection/dark_state_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Deshelving_Rate/deshelvingrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Deshelving_Rate/deshelving_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Fidelity_Tweak_Up/fidelitytweakup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Fidelity_Tweak_Up/fidelity_tweak_up.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/High_Fidelity_Dark_State_SPAM/high_fidelity_dark_state_spam.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/High_Fidelity_Dark_State_SPAM/high_fidelity_dark_state_spam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/High_Fidelity_Measurement/high_fidelity_measurement.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/High_Fidelity_Measurement/high_fidelity_measurement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan/interleaved_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan/interleaved_linescan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Metastable_Fidelity_Tweak_Up/metastable_fidelity_tweak_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Metastable_Fidelity_Tweak_Up/metastable_fidelity_tweak_up.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Metastable_Measurement_Driven_Gate/metastable_measurement_driven_gate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Metastable_Measurement_Driven_Gate/metastable_measurement_driven_gate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Metastable_Qubit_QND/metastable_qubit_qnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Metastable_Qubit_QND/metastable_qubit_qnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Linescan/microwave_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Linescan/microwave_linescan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Optical_Pumping_Rate/optical_pumping_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Optical_Pumping_Rate/optical_pumping_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Quadrupole_Linescan/quadrupole_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Quadrupole_Linescan/quadrupole_linescan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Quadrupole_Optical_Pumping_Linescan/quadrupole_optical_pumping_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Quadrupole_Optical_Pumping_Linescan/quadrupole_optical_pumping_linescan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Quadrupole_Rabi_Flopping/quadrupole_rabi_flopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Quadrupole_Rabi_Flopping/quadrupole_rabi_flopping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Randomized_Benchmarking/randomized_benchmarking.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Randomized_Benchmarking/randomized_benchmarking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/SF_Discrimination_Experiment/sf_discrimination_experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/SF_Discrimination_Experiment/sf_discrimination_experiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Shelving_Rate/shelving_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Shelving_Rate/shelving_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Test_Pulse_Sequence/test_pulse_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Test_Pulse_Sequence/test_pulse_sequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/doppler_cooling_leakthrough_test/dopplercoolingleakthroughtest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/doppler_cooling_leakthrough_test/dopplercoolingleakthroughtest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/BrightStatePumping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/bright_state_pumping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/bright_state_preparation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/bright_state_preparation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/coherence_measurement_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/coherence_measurement_point.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/dark_state_preparation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/dark_state_preparation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/deshelving_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/deshelving_point.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/doppler_cooling_leakthrough_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/doppler_cooling_leakthrough_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/fidelity_tweak_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/fidelity_tweak_up.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/interleaved_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/interleaved_point.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/metastable_four_preparation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/metastable_four_preparation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/metastable_measurement_driven_gate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/metastable_measurement_driven_gate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/metastable_rabi_qnd_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/metastable_rabi_qnd_point.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/metastable_three_preparation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/metastable_three_preparation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point/metastable_microwave_point_173.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point/metastable_microwave_point_173.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point/microwave_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point/microwave_point.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/optical_pumping_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/optical_pumping_point.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/quadrupole173.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/quadrupole_optical_pumping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/quadrupole_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/quadrupole_point.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/ramsey_microwave_line_scan_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/ramsey_microwave_line_scan_point.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/randomized_benchmarking.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/randomized_benchmarking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sf_discrimination_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sf_discrimination_sequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_bright_spam.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_bright_spam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_dark_spam.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_dark_spam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_fidelity.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_fidelity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/shelving_point.py" afterDir="false" />
+    <list default="true" id="45306210-2a53-4e50-b09e-0bab617f0f23" name="Default Changelist" comment="more spelling updates, as well as restructuring logic in pulse sequences to be more dependent on Mode parameters, instead of specific parameters to each pulse sequence">
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Fidelity_Tweak_Up/fidelity_tweak_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Fidelity_Tweak_Up/fidelity_tweak_up.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/doppler_cooling.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/doppler_cooling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/doppler_cooling_fiber_eom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/optical_pumping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/optical_pumping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/shelving.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/shelving.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/shelving_173.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/shelving_doppler_cooling.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/shelving_doppler_cooling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection/manifold_state_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection/manifold_state_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection/standard_state_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection/standard_state_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection/standard_state_detection_fiber_eom.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/test_camera_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/test_camera_detection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/test_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/test_sequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scriptscanner_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/scriptscanner_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scriptscanner_config_copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/scriptscanner_config_copy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Qsim" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -291,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658178532171</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="more spelling updates, as well as restructuring logic in pulse sequences to be more dependent on Mode parameters, instead of specific parameters to each pulse sequence">
+      <created>1658189124802</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658189124802</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +279,7 @@
     <MESSAGE value="minor reformats" />
     <MESSAGE value="capitalization reform" />
     <MESSAGE value="CamelCase in all class names" />
-    <option name="LAST_COMMIT_MESSAGE" value="CamelCase in all class names" />
+    <MESSAGE value="more spelling updates, as well as restructuring logic in pulse sequences to be more dependent on Mode parameters, instead of specific parameters to each pulse sequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="more spelling updates, as well as restructuring logic in pulse sequences to be more dependent on Mode parameters, instead of specific parameters to each pulse sequence" />
   </component>
 </project>
