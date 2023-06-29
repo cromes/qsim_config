@@ -1,13 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="45306210-2a53-4e50-b09e-0bab617f0f23" name="Default Changelist" comment="more spelling updates, as well as restructuring logic in pulse sequences to be more dependent on Mode parameters, instead of specific parameters to each pulse sequence">
+    <list default="true" id="45306210-2a53-4e50-b09e-0bab617f0f23" name="Default Changelist" comment="many minor changes">
+      <change afterPath="$PROJECT_DIR$/../Qsim/clients/keithley_control/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Light_Shift_Ramsey/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Light_Shift_Ramsey/light_shift_ramsey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/magnetrometry/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/servers/AWG_test/AWG_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Qsim/servers/AWG_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/DDS/DDS_CONTROL.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/DDS/DDS_CONTROL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/PMT/PMT_CONTROL.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/PMT/PMT_CONTROL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/QsimGUI/#QsimGUI2.0.py#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/QsimGUI/GUIlauncher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/QsimGUI/QsimGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/QsimGUI/QsimGUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/QsimGUI/splash_checker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/QsimGUI/zoo8withring.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/RF_control/RFcontrol.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/RF_control/RFcontrol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/cameraswitch/cameraswitch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/cameraswitch/cameraswitch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/dac_control/dac_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/dac_control/dac_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/kiethley_control/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/QsimGUI/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/kiethley_control/kiethley_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/keithley_control/keithley_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/load_control/load_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/load_control/load_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/qtui/electrodewidget.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/qtui/electrodewidget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Fidelity_Tweak_Up/fidelity_tweak_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Fidelity_Tweak_Up/fidelity_tweak_up.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/doppler_cooling.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/doppler_cooling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/shelving.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/shelving.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/shelving_doppler_cooling.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/shelving_doppler_cooling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan/interleaved_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan/interleaved_linescan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Laser_Frequency_Tracker/laser_frequency_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Laser_Frequency_Tracker/laser_frequency_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Line_Narrowing/line_narrowing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Line_Narrowing/line_narrowing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Linescan/microwave_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Linescan/microwave_linescan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Rabi_Flopping/microwave_rabi_flopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Rabi_Flopping/microwave_rabi_flopping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Ramsey_Experiment/microwave_ramsey_experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Microwave_Ramsey_Experiment/microwave_ramsey_experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Optical_Pumping_Rate/optical_pumping_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Optical_Pumping_Rate/optical_pumping_rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Test_Pulse_Sequence/test_pulse_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Test_Pulse_Sequence/test_pulse_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/Wavemeter_Linescan/wavemeter_linescan.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/Wavemeter_Linescan/wavemeter_linescan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/magnetrometry/magnetometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/magnetrometry/magnetometry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/experiments/qsimexperiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/experiments/qsimexperiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/fidelity_tweak_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/fidelity_tweak_up.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point/microwave_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point/microwave_point.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/optical_pumping_point.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/optical_pumping_point.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/bright_state_pumping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/bright_state_pumping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_interrogation/microwave_interrogation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_interrogation/microwave_interrogation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_interrogation/ramsey_microwave_interrogation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_interrogation/ramsey_microwave_interrogation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/optical_pumping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/optical_pumping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection/standard_state_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection/standard_state_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/test_sub_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/test_sub_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/test_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/test_sequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/servers/dacAD660/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/servers/dacAD660/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/servers/dacAD660/dacAD660server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/servers/dacAD660/dacAD660server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/servers/multipole_server/multipole_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/servers/multipole_server/multipole_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/servers/oven_server/oven_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/servers/oven_server/oven_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Qsim/servers/windfreak_2/windfreak_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Qsim/servers/windfreak_2/windfreak_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dac_ad660_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/dac_ad660_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiplexerclient_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiplexerclient_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pulser/hardwareConfiguration.py" beforeDir="false" afterPath="$PROJECT_DIR$/pulser/hardwareConfiguration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scriptscanner_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/scriptscanner_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scriptscanner_config_copy.py" beforeDir="false" afterPath="$PROJECT_DIR$/scriptscanner_config_copy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switch_client_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/switch_client_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +105,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/microwave_point" />
+      <recent name="$PROJECT_DIR$/../Qsim/scripts/experiments" />
       <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection" />
       <recent name="$PROJECT_DIR$/../common/lib/clients/script_scanner_gui" />
       <recent name="$PROJECT_DIR$/../Qsim/scripts/experiments/Metastable_Microwave_Linescan_173" />
-      <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/microwave_interrogation" />
-      <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences" />
@@ -70,9 +125,30 @@
       <recent name="$PROJECT_DIR$/../Qsim/scripts/pulse_sequences/sub_sequences/state_detection" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.docstring_widget">
-    <configuration name="docstring_widget" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.QCustomSpinBox">
+    <configuration name="QCustomSpinBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Qsim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../common/lib/clients/qtui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../common/lib/clients/qtui/QCustomSpinBox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docstring_widget" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="common" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -92,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="interleaved_linescan_935" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="keithley_2231A_30_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Qsim" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan_935" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../common/lib/servers/keithley_2231A_30_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Qsim/scripts/experiments/Interleaved_Linescan_935/interleaved_linescan_935.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../common/lib/servers/keithley_2231A_30_3/keithley_2231A_30_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="windfreak_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="windfreak_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Qsim" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +197,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Qsim/servers/windfreak_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Qsim/clients/windfreak_client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Qsim/servers/windfreak_2/windfreak_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="windfreak_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="windfreak_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Qsim" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +218,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Qsim/servers/windfreak" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Qsim/clients/windfreak_client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Qsim/servers/windfreak/windfreak_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Qsim/clients/windfreak_client/windfreak_gui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,9 +233,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.windfreak_server" />
-        <item itemvalue="Python.windfreak_server (1)" />
-        <item itemvalue="Python.interleaved_linescan_935" />
+        <item itemvalue="Python.QCustomSpinBox" />
+        <item itemvalue="Python.windfreak_client" />
+        <item itemvalue="Python.windfreak_gui" />
+        <item itemvalue="Python.keithley_2231A_30_3" />
         <item itemvalue="Python.docstring_widget" />
       </list>
     </recent_temporary>
@@ -243,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658189124802</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="many minor changes">
+      <created>1661216393495</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661216393495</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +364,7 @@
     <MESSAGE value="capitalization reform" />
     <MESSAGE value="CamelCase in all class names" />
     <MESSAGE value="more spelling updates, as well as restructuring logic in pulse sequences to be more dependent on Mode parameters, instead of specific parameters to each pulse sequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="more spelling updates, as well as restructuring logic in pulse sequences to be more dependent on Mode parameters, instead of specific parameters to each pulse sequence" />
+    <MESSAGE value="many minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="many minor changes" />
   </component>
 </project>

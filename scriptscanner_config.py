@@ -32,29 +32,27 @@ class config(object):
 
         (path + 'Optical_Pumping_Rate.optical_pumping_rate', 'OpticalPumpingRate'),
 
-        (path + 'Microwave_Rabi_Flopping.microwave_rabi_flopping', 'MicrowaveRabiFlopping'),
-
-        (path + 'Microwave_Linescan.microwave_linescan', 'MicrowaveLineScan'),
-
         (path + 'Fidelity_Tweak_Up.fidelity_tweak_up', 'FidelityTweakUp'),
+
+        (path + 'Microwave_Rabi_Flopping.microwave_rabi_flopping', 'MicrowaveRabiFlopping'),
 
         (path + 'Microwave_Linescan.microwave_linescan_minus', 'MicrowaveLineScanMinus'),
 
         (path + 'Microwave_Linescan.microwave_linescan_plus', 'MicrowaveLineScanPlus'),
 
-        (path + 'Metastable_Microwave_Linescan_173.metastable_microwave_linescan_173',
-            'MetastableMicrowaveLineScan173'),
+        (path + 'Microwave_Linescan.microwave_linescan', 'MicrowaveLineScan'),
 
-        (path + 'Metastable_Microwave_Linescan_173.swept_metastable_microwave_linescan_173',
-         'MetastableMicrowaveLineScanSwept173'),
+        # (path + 'Metastable_Microwave_Linescan_173.metastable_microwave_linescan_173',
+        #     'MetastableMicrowaveLineScan173'),
+        #
+        # (path + 'Metastable_Microwave_Linescan_173.swept_metastable_microwave_linescan_173',
+        #  'MetastableMicrowaveLineScanSwept173'),
 
         (path + 'Microwave_Rabi_Flopping.microwave_rabi_flopping_clock', 'MicrowaveRabiFloppingClock'),
 
-        (path + 'Quadrupole_Linescan.quadrupole_linescan',
-         'QuadrupoleLineScan'),
+        (path + 'Quadrupole_Linescan.quadrupole_linescan', 'QuadrupoleLineScan'),
 
-        #            (path + 'Quadrupole_Rabi_Flopping.quadrupole_rabi_flopping',
-        #             'QuadrupoleRabiFlopping'),
+        # (path + 'Quadrupole_Rabi_Flopping.quadrupole_rabi_flopping', 'QuadrupoleRabiFlopping'),
 
         (path + 'Microwave_Ramsey_Experiment.microwave_ramsey_experiment', 'MicrowaveRamseyExperiment'),
 
@@ -77,7 +75,7 @@ class config(object):
 
         # (path + 'ion_position_tracker.ion_position_tracker', 'ion_position_tracker'),
 
-        (path + 'Test_Pulse_Sequence.Test_Pulse_Sequence', 'TestPulseSequence'),
+        (path + 'Test_Pulse_Sequence.test_pulse_sequence', 'TestPulseSequence'),
 
         (path + 'High_Fidelity_Measurement.high_fidelity_measurement', 'HighFidelityMeasurement'),
 
@@ -96,7 +94,7 @@ class config(object):
 
         (path + 'Manifold_Detection.manifold_detection', 'ManifoldDetection'),
 
-        (path + 'Interleaved_Linescan_935.interleaved_linescan_935', 'InterleavedLinescan935'),
+        # (path + 'Interleaved_Linescan_935.interleaved_linescan_935', 'InterleavedLinescan935'),
 
         (path + 'AOM_Flickering.aom_flickering', 'AOMFlickering'),
 

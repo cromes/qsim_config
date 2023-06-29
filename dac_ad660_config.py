@@ -14,7 +14,7 @@ class channelConfiguration(object):
         self.octantNumber = octantNumber
         self.boardVoltageRange = boardVoltageRange
         self.allowedVoltageRange = allowedVoltageRange
-        if (name == None) & (octantNumber != None):
+        if (name is None) and (octantNumber is not None):
             self.name = str(dacChannelNumber).zfill(2)
         else:
             self.name = name
@@ -38,7 +38,8 @@ class hardwareConfiguration(object):
         '06': channelConfiguration(6, octantNumber=4),
         '08': channelConfiguration(8, octantNumber=8),
         '10': channelConfiguration(10, octantNumber=7),
-        '15': channelConfiguration(15, octantNumber=6),
+        # '15': channelConfiguration(15, octantNumber=6),
+        '02': channelConfiguration(2, octantNumber=6),
         '17': channelConfiguration(17, octantNumber=5),
         '19': channelConfiguration(19, octantNumber=1),
         '21': channelConfiguration(21, octantNumber=2),
