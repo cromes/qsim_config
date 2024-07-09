@@ -26,7 +26,7 @@ class config(object):
 
         # (path + 'FFT.PMT_FFT', 'PMT_FFT'),
 
-        # (path + 'tickle.tickle_experiment', 'ticklescan'),
+        (path + 'tickle.tickle_experiment', 'ticklescan'),
 
         (path + 'Laser_Frequency_Tracker.laser_frequency_tracker', 'LaserFrequencyTracker'),
 
@@ -53,6 +53,8 @@ class config(object):
         (path + 'Quadrupole_Linescan.quadrupole_linescan', 'QuadrupoleLineScan'),
 
         # (path + 'Quadrupole_Rabi_Flopping.quadrupole_rabi_flopping', 'QuadrupoleRabiFlopping'),
+
+        (path + 'Microwave_Ramsey_Light_Shift.microwave_ramsey_light_shift', 'MicrowaveRamseyLightShift'),
 
         (path + 'Microwave_Ramsey_Experiment.microwave_ramsey_experiment', 'MicrowaveRamseyExperiment'),
 
