@@ -98,7 +98,7 @@ class hardwareConfiguration(object):
         'OpticalPumpingSP': ddsConfiguration(0,  (80.0, 150.0),  (-46.0, -0.2),  120.0,   -46.0),
         '369DP':            ddsConfiguration(1,  (100.0, 300.0), (-46.0, -4.0),  200.0,   -10.0),
         'StateDetectionSP': ddsConfiguration(2,  (80.0, 150.0),  (-46.0, -4.0),  110.0,   -46.0),
-        'RF_Drive':         ddsConfiguration(3,  (30.0, 70.0),   (-46.0, -14.0), 47.835,  -17.1),
+        'RF_Drive':         ddsConfiguration(3,  (20.0, 70.0),   (-46.0, -14.0), 33.419,  -16.0),
         '935SP':            ddsConfiguration(4,  (280.0, 360.0), (-46.0, -8.0),  320.0,   -8.0),
         'DopplerCoolingSP': ddsConfiguration(5,  (80.0, 240.0),  (-46.0, -6.0),  110.0,   -46.0),
         '760SP2':           ddsConfiguration(6,  (120.0, 330.0), (-46.0, 5.0),   160.0,    2.0),
@@ -107,7 +107,7 @@ class hardwareConfiguration(object):
         '411DP1':           ddsConfiguration(9,  (400.0, 500.0), (-46.0, -7.2),  450.0,   -46.0),
         '532SP':            ddsConfiguration(10, (65.0,  95.0),  (-46.0, -5.0),  80.0,    -46.0),
         '3GHz_qubit':       ddsConfiguration(11, (100.0, 700.0), (-46.0, -2.0),  250.0,   -46.0),
-        '976SP':            ddsConfiguration(12, (250.0, 400.0), (-46.0, 2.0),   320.0,   -46.0),
+        '976SP':            ddsConfiguration(12, (250.0, 400.0), (-46.0, -4.0),   320.0,   -46.0),
         # 'ProtectionBeam': ddsConfiguration(11, (100.0, 500.0), (-46.0, -1.0), 250.0, -11.0),
     }
     remoteChannels = {
