@@ -7,6 +7,8 @@ class config(object):
 
     # list in the format (import_path, class_name)
     scripts = [
+        (path + 'DAC_Raster.dac_raster', 'DACRaster'),
+
         (path + 'Interleaved_Linescan.interleaved_linescan', 'InterleavedLinescan'),
 
         (path + 'Line_Narrowing.line_narrowing', 'LineNarrowing'),
@@ -67,6 +69,8 @@ class config(object):
         (path + 'Deshelving_Rate.deshelving_rate', 'DeshelvingRate'),
 
         (path + 'Wavemeter_Linescan.wavemeter_linescan', 'WavemeterLinescan'),
+
+        (path + 'wavemeter_linescan_badwm.wavemeter_linescan_badwm', 'WavemeterLinescanBadWM'),
 
         # (path + 'Metastable_Microwave_Linescan.metastable_microwave_linescan', 'MetastableMicrowaveLineScan'),
 
