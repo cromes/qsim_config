@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class channelConfiguration(object):
+class channelConfiguration:
     """
     Stores complete information for each DAC channel
     """

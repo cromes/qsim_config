@@ -98,7 +98,7 @@ class hardwareConfiguration(object):
         'OpticalPumpingSP': ddsConfiguration(0,  (80.0, 150.0),  (-46.0, -0.2),  120.0,   -46.0),
         '369DP':            ddsConfiguration(1,  (100.0, 300.0), (-46.0, -4.0),  200.0,   -10.0),
         'StateDetectionSP': ddsConfiguration(2,  (80.0, 150.0),  (-46.0, -4.0),  110.0,   -46.0),
-        'RF_Drive':         ddsConfiguration(3,  (20.0, 70.0),   (-46.0, -14.0), 33.419,  -16.0),
+        'RF_Drive':         ddsConfiguration(3,  (20.0, 70.0),   (-46.0, -5.0), 33.419,  -16.0),
         '935SP':            ddsConfiguration(4,  (280.0, 360.0), (-46.0, -8.0),  320.0,   -8.0),
         'DopplerCoolingSP': ddsConfiguration(5,  (80.0, 240.0),  (-46.0, -6.0),  110.0,   -46.0),
         '760SP2':           ddsConfiguration(6,  (120.0, 330.0), (-46.0, 5.0),   160.0,    2.0),

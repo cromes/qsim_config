@@ -29,8 +29,8 @@ class HardwareConfiguration:
     elec_dict = {
         '04': ChannelConfiguration(4),
         '06': ChannelConfiguration(6),
-        '08': ChannelConfiguration(8,  name="End Cap 1"),
-        '10': ChannelConfiguration(10, name="End Cap 2"),
+        '08': ChannelConfiguration(8,  name="End Cap 1", allowed_voltage_range=(0, 10)),
+        '10': ChannelConfiguration(10, name="End Cap 2", allowed_voltage_range=(0, 10)),
         '02': ChannelConfiguration(2,  name="RF Rod 1"),
         '17': ChannelConfiguration(17, name="DC Rod 1"),
         '19': ChannelConfiguration(19, name="DC Rod 2"),
