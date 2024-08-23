@@ -1,4 +1,4 @@
-class config(object):
+class Config(object):
     """
     scriptscanner config object for the molecules experiment.
     """

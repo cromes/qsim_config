@@ -1,4 +1,4 @@
-class config(object):
+class Config(object):
     """
     scriptscanner config object for the molecules experiment.
     """
@@ -81,7 +81,7 @@ class config(object):
 
         # (path + 'ion_position_tracker.ion_position_tracker', 'ion_position_tracker'),
 
-        (path + 'Test_Pulse_Sequence.test_pulse_sequence', 'TestPulseSequence'),
+        (path + 'Test_Experiment.test_experiment', 'TestExperiment'),
 
         (path + 'High_Fidelity_Measurement.high_fidelity_measurement', 'HighFidelityMeasurement'),
 
