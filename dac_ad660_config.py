@@ -32,16 +32,16 @@ class HardwareConfiguration:
     maxCache = 126
     filter_RC = 5e4 * 4e-7
 
-    elec_dict = {
-        '04': ChannelConfiguration(4),
-        '06': ChannelConfiguration(6),
-        '08': ChannelConfiguration(8,  name="End Cap 1", allowed_voltage_range=(0, 10)),
-        '10': ChannelConfiguration(10, name="End Cap 2", allowed_voltage_range=(0, 10)),
-        '02': ChannelConfiguration(2,  name="RF Rod 1"),
-        '17': ChannelConfiguration(17, name="DC Rod 1"),
-        '19': ChannelConfiguration(19, name="DC Rod 2"),
-        '21': ChannelConfiguration(21, name="RF Rod 2"),
-    }
+    dac_channels = [
+        ChannelConfiguration(4),
+        ChannelConfiguration(6),
+        ChannelConfiguration(8,  name="End Cap 1", allowed_voltage_range=(0, 10)),
+        ChannelConfiguration(10, name="End Cap 2", allowed_voltage_range=(0, 10)),
+        ChannelConfiguration(2,  name="RF Rod 1"),
+        ChannelConfiguration(17, name="DC Rod 1"),
+        ChannelConfiguration(19, name="DC Rod 2"),
+        ChannelConfiguration(21, name="RF Rod 2"),
+    ]
 
     """The columns of M are the calibrations of the multipoles. """
 
