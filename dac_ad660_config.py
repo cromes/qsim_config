@@ -1,3 +1,6 @@
+import numpy as np
+
+
 class ChannelConfiguration:
     """
     Stores complete information for each DAC channel
@@ -11,6 +14,9 @@ class ChannelConfiguration:
         self.dac_channel_number = dac_channel_number
         self.board_voltage_range = board_voltage_range
         self.allowed_voltage_range = allowed_voltage_range
+        self.port_name = str(self.dac_channel_number)
+        if len(self.port_name) == 1:
+            self.port_name = "0" + self.port_name
         if name is None:
             self.name = "DAC " + str(dac_channel_number).zfill(2)
         else:
@@ -36,3 +42,16 @@ class HardwareConfiguration:
         '19': ChannelConfiguration(19, name="DC Rod 2"),
         '21': ChannelConfiguration(21, name="RF Rod 2"),
     }
+
+    """The columns of M are the calibrations of the multipoles. """
+
+    M = np.array([
+        [1,   0,   0,   0,   0,   0,   0,   0],
+        [0,   1,   0,   0,   0,   0,   0,   0],
+        [0,   0,   1,   1,   0,   0,   0,   0],
+        [0,   0,   1,  -1,   0,   0,   0,   0],
+        [0,   0,   0,   0,   1,   0,   0,   1],
+        [0,   0,   0,   0,   0,   1,   1,   0],
+        [0,   0,   0,   0,   0,  -1,   1,   0],
+        [0,   0,   0,   0,  -1,   0,   0,   1],
+    ])
