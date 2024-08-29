@@ -78,12 +78,12 @@ class MultipoleConfiguration:
     multipoles = [
         Multipole("", displayed=False),
         Multipole("", displayed=False),
-        Multipole("EC Voltage",    effect=[0, 0, 1,  1, 0, 0,  0,  0]),
-        Multipole("EC Difference", effect=[0, 0, 1, -1, 0, 0,  0,  0]),
-        Multipole("RF Push",       effect=[0, 0, 0,  0, 1, 0,  0, -1]),
-        Multipole("DC Push",       effect=[0, 0, 0,  0, 0, 1, -1,  0]),
-        Multipole("DC Squeeze",    effect=[0, 0, 0,  0, 0, 1,  1,  0]),
-        Multipole("RF Squeeze",    effect=[0, 0, 0,  0, 1, 0,  0,  1]),
+        Multipole("EC Voltage", effect=[0, 0, 1, 1, 0, 0, 0, 0]),
+        Multipole("EC Difference", effect=[0, 0, 1, -1, 0, 0, 0, 0]),
+        Multipole("Left/Right", effect=[0, 0, 0, 0, 1, 1, -1, -1]),
+        Multipole("Up/Down", effect=[0, 0, 0, 0, 1, -1, 1, -1]),
+        Multipole("Squeeze", effect=[0, 0, 0, 0, 1, 1, 1, 1]),
+        Multipole("Quadrupole", effect=[0, 0, 0, 0, 1, -1, -1, 1]),
     ]
 
     # construct the multipole matrix. By default, the multipoles correspond one-to-one with the DAC channels
