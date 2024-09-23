@@ -78,7 +78,7 @@ class PulserConfiguration:
         'Internal866':         TTLChannel(0,  False, False, False, False),  # camera
         '866DP':               TTLChannel(1,  False, False, True,  False),  # reserved, DiffMode triggering
         '760TTL':              TTLChannel(2,  False, False, True,  False),
-        'WindfreakSynthHDTTL': TTLChannel(3,  False, False, False, True),
+        'SynthHDTTL': TTLChannel(3, False, False, False, True),
         'MicrowaveTTL':        TTLChannel(4,  False, False, True,  True),
         'MetastableQubitTTL':  TTLChannel(5,  False, False, False, False),
         'MicrowaveTTL2':       TTLChannel(6,  False, False, False, False),
@@ -86,7 +86,7 @@ class PulserConfiguration:
         '411TTL':              TTLChannel(8,  True,  False, False, False),
         '861SP':               TTLChannel(9,  False, False, False, False),
         'CameraTrigger':       TTLChannel(10, False, False, False, False),
-        'WindfreakSynthNVTTL': TTLChannel(11, False, False, True,  True),
+        'SynthNVTTL': TTLChannel(11, False, False, True, True),
         'TTL12':               TTLChannel(12, False, False, False, True),
         'TTL13':               TTLChannel(13, False, False, False, False),
         'TTL14':               TTLChannel(14, False, False, False, False),
